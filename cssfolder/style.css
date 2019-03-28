@@ -1,6 +1,6 @@
 .joblead {
   background: url('/assets/mood.jpg');
-  height: 100vh;
+  height: 93vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +12,14 @@
   padding-top: 50px;
   padding-left: 20px;
 }
+
+.top-title-img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  display: block;
+}
+
 
 
 /* This move the pop up to the top right corner*/
@@ -31,6 +39,17 @@
   padding: 10px;
   
 }
+
+.top-title {
+  width: 400px;
+}
+
+/* .top-title-img {
+  height:auto;
+  max-width:100%;
+  border:none;
+  display:block;
+} */
 
 
 
@@ -128,34 +147,52 @@ body {font-family: Arial, Helvetica, sans-serif;
   /* Small devices (tablets, 768px and up) */
   @media (min-width:768px) { 
   
-  .maxWidth {
+  /* .maxWidth {
     max-width:100%;
     margin: 0 auto;
-  }
+  } */
     
   }
   /* Small devices (tablets, up to 768px) */
   @media (max-width:768px) {
-  
+    .top-title-img{
+      display:block;
+      position: relative;
+    }
+
+    .joblead {
+      background: none;
+    }
   }
   /* Medium devices (desktops, between 992px and 768px) */
   @media (min-width: 768px) and (max-width: 992px) {  
-  
+    .top-title-img{
+      display:none;
+    }
   }
   /* Medium devices (desktops, up to 992px) */
   @media (max-width: 992px) {  
-  
+    /* .top-title-img{
+      display:none;
+    } */
   }
   /*  Medium devices (desktops, 992px and up)  */
   @media (min-width: 992px) {  
-  
+    .top-title-img{
+      display:none;
+    }
   }
   
   /* Large devices (large desktops, 1200px and up) */
   @media (min-width: 1104px) {
-  .maxWidth {
+  .maxWidth, .top-title-img {
     max-width:1104px;
+    display:none;
   } 
   
+  }
+
+  .joblead {
+    background: url('/assets/mood.jpg');
   }
   
