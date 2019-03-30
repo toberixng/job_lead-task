@@ -20,20 +20,30 @@
 <body>
   
 <section class="container-fluid main">
-  <div class="container padd-50 joblead">
-    <div>
-      <div class="box-open">
-          <img src="/assets/logo_JL.svg" alt="joblead logo">
-      </div>
-    </div>  
-  <div class="container">
-    <div class="row">
-        <div class="col-md-4 logo-title" style="background-color:rgb(250, 243, 243);">  
+  
+  <div class="container joblead">
+      
+            <div class="row">
+                <div class="col-md-4 padd-50"></div>
+                <div class="col-md-8" >
+                  <div class="chat-popup" id="popBox">
+                    <div class="pop-up-box">
+                      <button type="button" class="close" onclick="closeForm()">x</button>
+                      <p>An industrious, ingenious and creative person, 
+                        who is able to work alongside other talented professionals 
+                        </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+   <div class="row">
+        <div class="col-md-4 logo-title padd-50" style="background-color:rgb(250, 243, 243);">  
             <img class="max-width-img" src="/assets/logo_JL.svg" alt="joblead logo">
         </div>
-      <div class="col-md-8" >
-      </div>
+      
     </div>
+
     <div class="container">
         <div class="row">
             <div class="col-md-4 top-title">
@@ -46,75 +56,29 @@
             </div>
         </div>  
 
-
-        <div class="div-holding">
-            <div class="col-md-4 img-lg">
-              <img src="" alt="">dfgdfgdfg
-            </div><br>
-            <div class="col-md-4 max-width-img">
-              <button class="max-width-img">sdfsdfsdfsdfsdf</button>
-            </div>
-      </div>
+        <button class="open-button" onclick="openForm()">Chat</button>
+       
     </div>
-    
 </div>
 </section>
 
-<section>
-  
-  </div>
-</section>
 
-<section>
-  <div class="row">
-    <div>
-      <hr>
-    </div>
-    <div></div>
-  </div>
-</section>
 
     <!-- <section class="joblead">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4" style="background-color:lavender;">.col</div>
-                <div class="col-md-8" style="background-color:orange;">
-                  <button class="open-button" onclick="openForm()">Chat</button>
-                  <div class="chat-popup" id="myForm">
-                    <form action="/action_page.php" class="form-container">
-                      <h1>Chat</h1>
-                      <label for="msg"><b>Message</b></label>
-                      <textarea placeholder="Type message.." name="msg" required></textarea>
-                      <button type="submit" class="btn">Send</button>
-                      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                    </form>
-                </div>
-              </div>
-            </div> -->
-
-        <!-- Side Modal Top Right -->
-
-
-<!-- Side Modal Top Right -->
-    <!-- </section> -->
-
-    <section class="container">
-    </section>
-    
-    
-    <footer>
-<p>jhfslakjhfkjsdhdflasdhflkjsadh</p>
-    </footer>
+             
+</div>
+            
 
        
-    
+    </section> -->
 
-    <!-- script section -->
+    
   <script src="./js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   
 </body>
 </html>
