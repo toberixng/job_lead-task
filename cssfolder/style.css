@@ -81,11 +81,24 @@ body {font-family: Arial, Helvetica, sans-serif;
   max-width: 100%;
 }
 
+/* this is used to float arrow circle to the left*/
 .half1 {
   float: left;
-  margin-bottom: 0;
 }
 
+h2 {
+  line-height: 2px;
+}
+
+.padd-10 {
+  margin: 5px;
+  padding: 5px 5px 5px 20px;
+}
+
+.padd-inner {
+  padding-left: 20px;
+  margin: 5px;
+}
 
 strike {
   font-size: 12px;
