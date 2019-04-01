@@ -32,21 +32,12 @@
 }
 
 .logo-title {
-  background: white;
-  padding: 10px;
-  
+  background: rgb(250, 243, 243);
+  margin-bottom: 20px;
+  width: 250px;
+  max-width: 100%;
+  display: block;
 }
-
-
-/* .top-title-img {
-  height:auto;
-  max-width:100%;
-  border:none;
-  display:block;
-} */
-
-
-
 
 body {font-family: Arial, Helvetica, sans-serif;
   
@@ -54,11 +45,18 @@ body {font-family: Arial, Helvetica, sans-serif;
 * {box-sizing: border-box;}
 
 
-.top-title {
-  width: 380px;
 
+/*This is used for the title box*/
+.top-title {
+  max-width: 380px !important;
   background-color: rgb(39, 37, 37);
   color: white;
+  padding: 16px 20px;
+  width: 380px;
+  width: 100%;
+}
+
+.mobile-image {
   padding: 16px 20px;
 }
 
@@ -73,10 +71,9 @@ body {font-family: Arial, Helvetica, sans-serif;
   position: fixed;
   width: 380px;
   position:absolute;
-  bottom:200px;
-  left:0;
+  bottom:218px;
   font-size: 12px;
-  height: 270px;
+  height: 250px;
   padding: 55px 5px 5px 20px;
   max-width: 100%;
 }
@@ -84,20 +81,7 @@ body {font-family: Arial, Helvetica, sans-serif;
 /* this is used to float arrow circle to the left*/
 .half1 {
   float: left;
-}
-
-h2 {
-  line-height: 2px;
-}
-
-.padd-10 {
-  margin: 5px;
-  padding: 5px 5px 5px 20px;
-}
-
-.padd-inner {
-  padding-left: 20px;
-  margin: 5px;
+  padding-left: 30px;
 }
 
 strike {
@@ -107,10 +91,9 @@ strike {
 
 
 
-
 /* Button used to open the rigth pop up box - fixed at the bottom of the page */
 .open-button {
-  background-color: rgb(218, 69, 69);
+  background-color: rgb(243, 143, 29);
   color: white;
   padding: 16px 20px;
   border: none;
@@ -119,8 +102,7 @@ strike {
   position: fixed;
   width: 380px;
   position:absolute;
-  bottom:100px;
-  left:0;
+  bottom:162px;
   max-width: 100%;
 }
 
@@ -176,10 +158,6 @@ strike {
   /* Small devices (tablets, 768px and up) */
   @media (min-width:768px) { 
   
-  /* .maxWidth {
-    max-width:100%;
-    margin: 0 auto;
-  } */
     
   }
   /* Small devices (tablets, up to 768px) */
