@@ -9,19 +9,6 @@
   
 }
 
-@font-face {
-  font-family: 'MyWebFont';
-  src: url('firaSans-webf/FiraSans-Book.eot'); /* IE9 Compat Modes */
-  src: url('firaSans-webf/FiraSans-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('firaSans-webf/FiraSans-Book.woff2') format('woff2'), /* Super Modern Browsers */
-       url('firaSans-webf/FiraSans-Book.woff') format('woff'), /* Pretty Modern Browsers */
-       url('firaSans-webf/FiraSans-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
-       
-}
-
-* {
-  font-family: MyWebFont;
-}
 
 .padd-50 {
   padding-top: 20px;
@@ -37,16 +24,23 @@
 /* This move the pop up to the top right corner*/
 
 .main {
-  height: 100vh;
   background-color: black;
+  height: 100vh
 }
 
-.logo-title {
+div.logo-title {
   background: rgb(250, 243, 243);
   margin-bottom: 20px;
   width: 250px;
   max-width: 100%;
   display: block;
+  animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-delay: 2s;
+  -moz-animation-delay: 2s; /*mozila*/
+  -webkit-animation-delay: 2s; /*safari*/
+  animation-iteration-count: 2;
 }
 
 body {font-family: MyWebFont, Arial, Helvetica, sans-serif;
@@ -144,10 +138,8 @@ strike {
       padding: 10px 10px;
     }
 
-    #popBox{
-      display:none;
-    }
     
+
   }
   /* Small devices (tablets, up to 768px) */
   @media (max-width:768px) {
@@ -158,6 +150,7 @@ strike {
     }
     .joblead {
       background: none;
+      height: 100vh;
     }
 
     .pop-up-box {
@@ -165,24 +158,60 @@ strike {
       position: relative;
 
     }
+       
   }
+
+
   /* Medium devices (desktops, between 992px and 768px) */
   @media (min-width: 768px) and (max-width: 992px) {  
     .top-title-img{
       display:none;
     }
+
   }
   /* Medium devices (desktops, up to 992px) */
   @media (max-width: 992px) {  
-    /* .top-title-img{
+    .right-side-pop {
+      display: none;
+      z-index: 7;
+      position:relative;
+      max-width:350px;
+      /* padding: 15px; */
+      border: none;
+    }
+    
+  .main-mobile1 {
+      background-color: black;
+      padding-top: 50px;
+    }
+
+    .main-mobile2 {
+      background-color: black;
+      padding-top: 50px;
+    }
+
+    .joblead {
+      background: none;
+      height: 100vh;
+    }
+
+    #popBox{
       display:none;
-    } */
+      
+    }
+    .padd-50 {
+      padding-top: 10px;
+      
+    }
+
+    
   }
   /*  Medium devices (desktops, 992px and up)  */
   @media (min-width: 992px) {  
     .top-title-img{
       display:none;
     }
+    
   }
   
   /* Large devices (large desktops, 1200px and up) */

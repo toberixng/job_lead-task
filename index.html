@@ -21,18 +21,18 @@
 
 <body>
   
-<section class="container-fluid main">
+<section class="container-fluid main main-mobile1">
   
   <div class="container joblead padd-50">
   
-        <div class="logo-title ">  
+        <div class="logo-title animated wobble">  
             <img class="max-width-img" src="/assets/logo_JL.svg" alt="joblead logo">
         </div>
  
     
         <div >
           <div >
-            <div class="col-md-5 top-title">
+            <div class="col-md-5 top-title animated bounce">
               <p>
                 Sehr geehrter Herr Mustermann, 
                 starten Sie sauber ins Jahr 2015 mit
@@ -59,11 +59,11 @@
               <h6 style="padding-left: 90px;"><strike>EUR 13,23 pro Monat</strike></h6>
             </div>
         </div>
-        <button class="open-button" onclick="openForm()">jetzt säubern und neuen job finden</button>
+        <button class="open-button" onclick="openBox()">jetzt säubern und neuen job finden</button>
         
-        
+        <div id="bg-mobile">
           <div class="right-side-pop" id="popBox">
-              <button type="button" class="close" onclick="closeForm()">x</button>
+              <button class="close" onclick="closeBox()">x</button>
               <p>More information
                 <hr>
               </p>
@@ -74,9 +74,26 @@
                    
                 </p>
           </div>
+          
         </div>
+        </div>
+        
       </div>
+      
+      
 </section>
+
+<footer class="container-fluid main-mobile2">
+
+                        
+  <!-- Copywrite Text -->
+  <div class="container">
+      <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+ &copy; 2014 jobLeads GmbH - Alle Rechte vorbehalten<script>document.write(new Date().getFullYear());</script> All rights reserved
+</p>
+  </div>
+  <!-- Footer Menu -->
+</footer>
 
 
 
