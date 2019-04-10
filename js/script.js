@@ -18,6 +18,7 @@ $(function(){
   });
 });
 
+/*this animate the button*/
 $(function(){
 
 $("button.open-button").on('click', function(){
@@ -26,7 +27,3 @@ $("button.open-button").on('click', function(){
 
 });
 });
-
-
-
-

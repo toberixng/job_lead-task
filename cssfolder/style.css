@@ -1,12 +1,12 @@
 .joblead {
-  background: url('/assets/mood.jpg');
+  background-image: url('../assets/mood.jpg');
   height: 93vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   margin: 0px;
-  
+   
 }
 
 
