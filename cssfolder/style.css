@@ -125,9 +125,10 @@ strike {
 
 /*footer*/
 
-.main-mobile {
+footer {
   background-color: black !important;
   text-align: center;
+  padding: 20px;
   color: whitesmoke;
 }
 
@@ -203,18 +204,15 @@ strike {
       
     }
     .padd-50 {
-      padding-top: 10px;
-      
+      padding-top: 10px;  
     }
-
-    
+ 
   }
   /*  Medium devices (desktops, 992px and up)  */
   @media (min-width: 992px) {  
     .top-title-img{
       display:none;
-    }
-    
+    }  
   }
   
   /* Large devices (large desktops, 1200px and up) */
@@ -223,5 +221,4 @@ strike {
     max-width:1104px;
     display:none;
   } 
-  
   }
