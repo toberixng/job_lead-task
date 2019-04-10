@@ -1,6 +1,6 @@
 .joblead {
   background-image: url('../assets/mood.jpg');
-  height: 93vh;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,7 +40,7 @@ div.logo-title {
   animation-delay: 2s;
   -moz-animation-delay: 2s; /*mozila*/
   -webkit-animation-delay: 2s; /*safari*/
-  animation-iteration-count: 2;
+  /* animation-iteration-count: 2; */
 }
 
 body {font-family: MyWebFont, Arial, Helvetica, sans-serif;
@@ -123,6 +123,14 @@ strike {
   max-width: 100%;
 }
 
+/*footer*/
+
+.main-mobile {
+  background-color: black !important;
+  text-align: center;
+  color: whitesmoke;
+}
+
 
 /* Assignment specification */
 
@@ -172,22 +180,17 @@ strike {
   /* Medium devices (desktops, up to 992px) */
   @media (max-width: 992px) {  
     .right-side-pop {
-      display: none;
-      z-index: 7;
       position:relative;
-      max-width:350px;
-      /* padding: 15px; */
-      border: none;
+      background-color: whitesmoke !important;
+      background-position-x: 10px;
     }
     
-  .main-mobile1 {
-      background-color: black;
-      padding-top: 50px;
-    }
 
-    .main-mobile2 {
-      background-color: black;
-      padding-top: 50px;
+    .main-mobile {
+      background-color: black !important;
+      text-align: center;
+      padding: 10px;
+      color: whitesmoke;
     }
 
     .joblead {
