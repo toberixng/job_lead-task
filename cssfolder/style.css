@@ -9,6 +9,15 @@
    
 }
 
+@font-face{
+  src: url(/assets/firaSans-webf/FiraSans-Book.eot);
+  font-family: fira;
+}
+
+
+* {
+  font-family: fira;
+}
 
 .padd-50 {
   padding-top: 20px;
